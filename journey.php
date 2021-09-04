@@ -1,5 +1,5 @@
 <?
-
+////THIS FORM SHOULS BE EASY ENOUGH TO CONVERT  THE SUBMIT VALUES OF THESE BUTTONS WILL CALL FUNCTIONS IN THE NEW SMART CONTRACT BASED VERSION
 echo "<html>";
 echo "<center><form action=\"journeyadd.php\" method=\"post\">";
 echo "distance: <input type=\"text\" name=\"distance\"><br>";
