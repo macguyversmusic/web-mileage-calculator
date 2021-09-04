@@ -1,22 +1,27 @@
  
 <?
+///OK LETS GET READY TO CONVERT THIS
 
 include("/home/skinfo/public_html/journey/settings.php"); 
 
 //setting variables
+//////FOR SOLIDITY WE NEED A MAPPING
 
 $show_all="select * from journey order by date";
 $sum_miles="select sum(distance) from journey";
  
 //connecting
- 
+ //WALLET CONNECT WEB3
+
           mysql_connect ("localhost","$user","$pass");
 		  
 //selct database to use		  
-		  
+	//READ BLOCKCHAIN	
+
          @mysql_select_db($dbase) or die("oopsi poopsy pooo");
 
 //run query
+////////////RECOVER FROM MAPPING
 
 		  $result=mysql_query($show_all);
 		  $result1=mysql_query($sum_miles);
@@ -54,7 +59,7 @@ $sum_miles="select sum(distance) from journey";
          echo "</tr>";	 
 	 
 		//here we start the loop to output the data
-		 
+		////THIS WILL ALL BE JAVA VARIABLES AND RESPONSES FROM THE CONTRAT 
          $i=0;
 		 
          while ($i < $number_of_rows) {
@@ -79,7 +84,7 @@ $sum_miles="select sum(distance) from journey";
                                        }
 
 		//now that all the rows are displayed we close the table tags
-		
+		// POSSIBLY USE PHASER TO CREATE A BUTTON SYSTEM THAT DRAWS ON TOP OF THE PAGES
 		echo "</table>";
 		
 		//add some buttons to do stuff like go back, print, clear
