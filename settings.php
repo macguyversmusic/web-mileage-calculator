@@ -1,7 +1,6 @@
 <?
-
- $user  ="flashbc_mileage";
- $pass  ="xd3134sahmileage";
- $dbase ="flashbc_mileage"; 
+CREDS NOT NECESARY
+ NOW WE ARE IN THE BLOCKCHAIN ONLY PRIVATE KEY
+ NOBODY WILL STEAL THIS FROM A WEB SERVER OR AN SQL INJECTION
  
  ?>
